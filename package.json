@@ -1,0 +1,26 @@
+{
+    "name": "td2",
+    "version": "1.0.0",
+    "description": "Config ESLint pour le TD2",
+    "main": "index.js",
+    "scripts": {
+      "lint": "eslint .",
+      "lint:fix": "eslint . --fix"
+    },
+    "dependencies": {},
+    "devDependencies": {
+      "eslint": "^8.0.0"
+    },
+    "eslintConfig": {
+      "env": {
+        "browser": true,
+        "es2021": true
+      },
+      "extends": "eslint:recommended",
+      "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+      },
+      "rules": {}
+    }
+  }
